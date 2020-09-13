@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar*/
+
+nav {
+    width: 90%;
+    max-width: 1024px;
+    margin: 30px auto; 
+    padding: 0 20px;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+nav ul {
+    list-style: none;
+    font-size: 0;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    width: 20%;
+      
+}
+
+nav ul li a {
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Megrim', cursive;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    background-color: lightsteelblue;
+    color: black;
+    transition: 0.2s;
+}
+
+
+
+/*Header*/
+
+header {
+    background-color: lightseagreen;
+    min-height: 30vh;
+}
